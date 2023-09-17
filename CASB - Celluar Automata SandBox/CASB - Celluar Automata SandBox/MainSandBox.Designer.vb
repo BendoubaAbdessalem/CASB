@@ -248,7 +248,7 @@ Partial Class MainSandBox
         '
         'TottalStepCount
         '
-        Me.TottalStepCount.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.TottalStepCount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TottalStepCount.AutoSize = True
         Me.TottalStepCount.Location = New System.Drawing.Point(735, 273)
         Me.TottalStepCount.Name = "TottalStepCount"
@@ -260,7 +260,7 @@ Partial Class MainSandBox
         '
         'CurrentStepIndex
         '
-        Me.CurrentStepIndex.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.CurrentStepIndex.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CurrentStepIndex.AutoSize = True
         Me.CurrentStepIndex.Location = New System.Drawing.Point(489, 273)
         Me.CurrentStepIndex.Name = "CurrentStepIndex"
@@ -270,7 +270,7 @@ Partial Class MainSandBox
         '
         'FPSL
         '
-        Me.FPSL.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.FPSL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.FPSL.AutoSize = True
         Me.FPSL.Location = New System.Drawing.Point(721, 328)
         Me.FPSL.Name = "FPSL"
